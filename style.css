@@ -17,7 +17,8 @@ body {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 50px;
+    margin-top: 120px;
+    margin-bottom: 150px;
 }
 
 .info {
@@ -80,3 +81,83 @@ body {
 }
 
 /* -----------------------------------First Section End-----------------------------  */
+/* -----------------------------------Second Section Start-----------------------------  */
+.second-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.aside-nav {
+    width: 20%;
+}
+
+.match-nav-box {
+    width: 320px;
+    height: 320px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.match-nav-box button {
+    border: none;
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 23px 18px;
+    background: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#red {
+    background: red;
+    color: white;
+}
+
+.live-match-lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.live-match {
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.live-match button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    background: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.live-match h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.live-match .flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #161616;
+    margin-left: 10px;
+    font-weight: 400px;
+    height: 20px;
+}
+
+/* -----------------------------------Second Section End-----------------------------  */
+/* -----------------------------------Footer Section Start-----------------------------  */
+
+/* -----------------------------------Footer Section End-----------------------------  */
