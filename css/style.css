@@ -1,0 +1,81 @@
+/* -----------------------------
+---------------Fonts------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/* Main  */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/* ----------------------------------First Section Start--------------------------------  */
+.first-section {
+    background: #161616;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+.info {
+    display: flex;
+}
+
+.text-info {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.text-info h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
+
+.text-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.text-info button {
+    padding: 16px 30px;
+    background: #DD0000;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 110px;
+}
+
+.watch-live {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.watch-live a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.fa-chevron-right {
+    color: white;
+}
+
+.first-image {
+    width: 50%;
+}
+
+.first-image img {
+    width: 95%;
+    margin-right: 5%;
+}
+
+/* -----------------------------------First Section End-----------------------------  */
