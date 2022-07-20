@@ -200,6 +200,20 @@ body {
     color: red;
 }
 
+.view-all {
+    display: none;
+    margin-left: 58%;
+}
+
+.view-all a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
 /* -----------------------------------Second Section End-----------------------------  */
 /* -----------------------------------Footer Section Start-----------------------------  */
 footer {
